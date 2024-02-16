@@ -1,0 +1,83 @@
+/* .club-header {
+  display: flex;
+}
+
+.club-block {
+  border-radius: 30px;
+}
+.Club{
+  width: 98px;
+  height: 46px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 10px;
+}
+
+.sport-container,
+.academic-container,
+.more-container{
+  background-color: #F7DBE4;
+}
+
+.art-container,
+.volunteer-container{
+
+  background-color: #BFE2D6;
+}
+.club-pic {
+  padding: 10px;
+  width: 174.406px;
+  height: 172px;
+  flex-shrink: 0; 
+  display: inline-block;
+}
+
+.text-club-containner {
+  display: inline-block;
+}
+
+.Sport{
+  width: 77px;
+  height: 34px;
+  flex-shrink: 0;
+  color: #000;
+  text-align: right;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.5px;
+} */
+*{
+  margin: 0;
+  padding: 0;
+}
+.group{
+  display: grid;
+  justify-content: center;
+}
+.sport{
+  margin-top: 10px;
+}
+.art{
+  margin-top: 10px;
+}
+.academic{
+  margin-top: 10px;
+}
+.volunteer{
+  margin-top: 10px;
+}
+.more{
+  margin-top: 10px;
+}
+.head-bar {
+  display: flex;
+  margin: 35px;
+}

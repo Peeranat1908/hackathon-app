@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.feature-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top:50px;
+    margin-bottom: 20px;
+}
+
+.feature-2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.feature-3{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.feature-4{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.feature-5{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:150px;
+}
+.group{
+    margin: 10px;
+}
+
+.pink{
+    background-color: #dec0f4;
+    border-radius: 50%;
+    padding: 15px;
+}
+.blue{
+    background-color: #c0d5f4;
+    border-radius: 50%;
+    padding: 15px;
+}
+.green{
+    background-color: #c0f4c5;
+    border-radius: 50%;
+    padding: 15px;
+}
+.about-ku p{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.ku-new p{
+    display: flex;
+    justify-content: center;
+}
+.event p{
+    display: flex;
+    justify-content: center;
+}
+
+
+.insit-info p{
+    display: flex;
+    justify-content: center;
+}
+
+.ku-card p{
+    display: flex;
+    justify-content: center;
+}
+
+
+.ku-grade p{
+    display: flex;
+    justify-content: center;
+}
+
+.registration p{
+    display: flex;
+    justify-content: center;
+}
+
+.class-Schedule p{
+    display: flex;
+    justify-content: center;
+}
+
+.book p{
+    display: flex;
+    justify-content: center;
+}
+
+.activity-transcript p{
+    display: flex;
+    justify-content: center;
+}
+
+.check-in p{
+    display: flex;
+    justify-content: center;
+}
+
+.vote p{
+    display: flex;
+    justify-content: center;
+}
+
+
+.map p{
+    display: flex;
+    justify-content: center;
+}
+
+.emergency p{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.clup p{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.bottom_bar {
+    background: #51A06C;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    flex-wrap: nowrap;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.botton {
+    margin-left: 3%;
+}
+
+.botton img {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+.fixed {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}

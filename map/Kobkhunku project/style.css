@@ -1,0 +1,155 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+/* 
+ * Optional: Makes the sample page fill the window. 
+ */
+html,
+body {
+  height: 90%;
+  margin: 0;
+  padding-top: 10px;
+}
+.head{
+  display: flex;
+  cursor: pointer;
+  text-decoration: none;
+}
+.Map{
+  font-size: 30px;
+  width: 91px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.map-button-container {
+  margin-top: 5rem ;
+  padding: 20px;
+  background-color: rgb(230, 228, 228);
+  display: flex;
+  justify-content: space-around;
+  border-radius: 30px;
+}
+
+.map-button-container button{
+  background-color: rgb(230, 228, 228);
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  opacity: 100;
+}
+.footer-container{
+  bottom: 0;
+  background-color: rgb(230, 228, 228);
+  border-radius: 30px;
+}
+.map-button-container button:hover{
+  background-color: rgb(217, 216, 216);
+  cursor: pointer;
+}
+.map-button-container button:active{
+  background-color: rgb(198, 198, 198);
+}
+
+.back{
+  margin-left: 10px;
+  margin-right: 10px ;
+  font-size: 40px;
+  width: 27px;
+  height: 35px;
+  flex-shrink: 0;
+  color: black;
+}
+
+.input-box{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 10px 10px rgba(black,0.15);
+}
+.search-box {
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 15px;
+  border: none;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 13px;
+  color: rgb(228, 228, 228);
+}
+.submit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.submit-button button {
+  padding: 15px 70px;
+  border-radius: 20px;
+  border: none;
+  background-color: #51A06C;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.submit-button:hover button {
+  background-color: #59986f;
+}
+/* <!-- HTML !-->
+<button class="button-75" role="button"><span class="text">Button 75</span></button>
+
+<!-- HTML !-->
+<button class="button-62" role="button">Button 62</button>
+
+CSS
+.button-62 {
+  background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+} */

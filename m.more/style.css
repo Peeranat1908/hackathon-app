@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    margin: 20px;
+}
+
+.head p{
+    font-size: 40px;
+}
+
+#box{
+    background: rgb(170, 236, 170);
+    margin: 10px;
+    border-radius: 16px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.spoil-button {
+    font-size: 10px;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0);
+    border: 0;
+}
+
+.spoil-button p{
+    font-weight: 700px;
+}
+  
+  .spoil-message {
+    background-color: rgb(170, 236, 170);
+    margin: 10px;
+    border-radius: 16px;
+    font-size: 18px;
+    display: none;
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .spoil-message.show {
+    display: block;
+  }
+
+.back{
+    text-align: center;
+}
+
+.back button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    border-radius: 16px;
+    
+}
